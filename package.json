@@ -1,0 +1,27 @@
+{
+  "name": "webpackexample",
+  "version": "1.0.0",
+  "description": "webpack測試",
+  "main": "bundle.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HungHsiangLin/webpackexample.git"
+  },
+  "author": "HHL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HungHsiangLin/webpackexample/issues"
+  },
+  "homepage": "https://github.com/HungHsiangLin/webpackexample#readme",
+  "devDependencies": {
+    "css-loader": "^2.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {}
+}
